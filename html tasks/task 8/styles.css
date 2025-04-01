@@ -1,0 +1,22 @@
+img{
+    width: 150px;
+    height: 100px;
+}
+header{
+    display: flex;
+    color:rgb(77, 149, 5)
+ 
+
+}
+h1{
+    text-align: left;
+    padding: 30px 360px;
+}
+.info{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+a{
+    color:white;
+}

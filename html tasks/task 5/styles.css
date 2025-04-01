@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #ce40a8;
+}
+table {
+    width: 80%;
+    max-width: 800px;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #9f9491;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+th {
+    background-color: #df4e4e;
+    font-weight: bold;
+}
+tr:hover {
+    background-color: #f1f1f1;
+}
+.price {
+    font-size: 1.2em;
+    color: #333;
+}
+.features {
+    list-style-type: none;
+    padding: 0;
+}
+.features li {
+    padding: 5px 0;
+}
